@@ -1,7 +1,7 @@
 import streamlit as st
-#from componente_datos import cargar_y_validar_datos_agro
-#from componente_metricas import calcular_kpis_agro
-#from componente_prediccion import estimar_necesidad_riego
+from componente_datos import cargar_y_validar_datos_agro
+from componente_metricas import calcular_kpis_agro
+from componente_prediccion import estimar_necesidad_riego
 
 #Configuracion de la Pagina 
 st.set_page_config(page_title="AgroTech SmartFarm", layout="wide")
